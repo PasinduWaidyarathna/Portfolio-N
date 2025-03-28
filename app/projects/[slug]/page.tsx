@@ -16,12 +16,6 @@ import { motion } from "framer-motion";
 import { projectData } from "@/lib/projects";
 import { useParams } from "next/navigation";
 
-interface ProjectPageProps {
-  params: {
-    slug: string;
-  };
-}
-
 export default function ProjectPage() {
   const params = useParams<{ slug: string }>();
   const project = projectData[params.slug as keyof typeof projectData] || {
@@ -197,8 +191,8 @@ export default function ProjectPage() {
                   Interested in Working Together?
                 </h2>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  I'm always open to discussing new projects, creative ideas, or
-                  opportunities to be part of your vision.
+                  {`I'm always open to discussing new projects, creative ideas, or
+                  opportunities to be part of your vision.`}
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">

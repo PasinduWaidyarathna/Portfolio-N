@@ -21,7 +21,7 @@ export default function AboutPage() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                   >
-                    About <span className="text-blue-600">Me</span>
+                    {`About`} <span className="text-blue-600">Me</span>
                   </motion.h1>
                   <motion.p
                     className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400"
@@ -68,20 +68,20 @@ export default function AboutPage() {
                   appealing but also functional and user-friendly.
                 </p>
                 <p className="text-gray-500 md:text-lg/relaxed dark:text-gray-400">
-                  Throughout my career, I've had the opportunity to work with a
+                  {`Throughout my career, I've had the opportunity to work with a
                   diverse range of clients, from startups to established
                   enterprises, helping them bring their ideas to life through
-                  code.
+                  code.`}
                 </p>
                 <p className="text-gray-500 md:text-lg/relaxed dark:text-gray-400">
-                  My approach to development is centered around understanding
+                  {`My approach to development is centered around understanding
                   the unique needs of each project and finding the most
-                  efficient and effective solutions to meet those needs.
+                  efficient and effective solutions to meet those needs.`}
                 </p>
               </div>
               <div className="space-y-4">
                 <h2 className="text-3xl font-bold tracking-tighter">
-                  Education & Experience
+                  {`Education & Experience`}
                 </h2>
                 <div className="space-y-6">
                   <div className="space-y-2">
@@ -208,11 +208,11 @@ export default function AboutPage() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-                  Let's Connect
+                  {`Let's Connect`}
                 </h2>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  I'm always open to discussing new projects, creative ideas, or
-                  opportunities to be part of your vision.
+                  {`I'm always open to discussing new projects, creative ideas, or
+                  opportunities to be part of your vision.`}
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">

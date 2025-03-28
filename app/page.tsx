@@ -22,7 +22,7 @@ export default function Home() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                   >
-                    Hello, I'm{" "}
+                    {`Hello, I'm`}{" "}
                     <span className="text-blue-600">Pasindu Waidyarathna</span>
                   </motion.h1>
                   <motion.p
@@ -185,11 +185,11 @@ export default function Home() {
                     Who I Am
                   </h2>
                   <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                    I'm a passionate developer with a focus on creating
+                    {`I'm a passionate developer with a focus on creating
                     beautiful, functional, and user-friendly applications. With
                     over 5 years of experience in web development, I've worked
                     on a variety of projects from small business websites to
-                    large-scale enterprise applications.
+                    large-scale enterprise applications.`}
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -212,11 +212,11 @@ export default function Home() {
                   Get in Touch
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Let's Work Together
+                  {`Let's Work Together`}
                 </h2>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  Have a project in mind? Let's discuss how I can help bring
-                  your ideas to life.
+                  {`Have a project in mind? Let's discuss how I can help bring
+                  your ideas to life.`}
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">

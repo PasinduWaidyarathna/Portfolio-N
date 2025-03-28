@@ -52,7 +52,7 @@ export default function ContactPage() {
         publicKey: "4HiL_M52LlPZprbPC",
       })
       .then(
-        (response) => {
+        () => {
           setIsSubmitting(false);
           setIsSubmitted(true);
           setFormData({ name: "", email: "", subject: "", message: "" });
@@ -91,8 +91,8 @@ export default function ContactPage() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.1 }}
                 >
-                  Have a project in mind? Let's discuss how I can help bring
-                  your ideas to life.
+                  {`Have a project in mind? Let's discuss how I can help bring
+                  your ideas to life.`}
                 </motion.p>
               </div>
             </div>
@@ -180,15 +180,15 @@ export default function ContactPage() {
                     Send Me a Message
                   </h2>
                   <p className="text-gray-500 md:text-lg/relaxed dark:text-gray-400">
-                    Fill out the form below and I'll get back to you as soon as
-                    possible.
+                    {`Fill out the form below and I'll get back to you as soon as
+                    possible.`}
                   </p>
                 </div>
                 {isSubmitted ? (
                   <div className="rounded-lg bg-green-100 p-4 text-green-700 dark:bg-green-900/20 dark:text-green-400">
                     <p className="font-medium">Message sent successfully!</p>
                     <p className="text-sm">
-                      Thank you for reaching out. I'll get back to you soon.
+                      {`Thank you for reaching out. I'll get back to you soon.`}
                     </p>
                   </div>
                 ) : (

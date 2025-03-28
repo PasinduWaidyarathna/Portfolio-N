@@ -92,8 +92,8 @@ export default function ProjectsPage() {
                   Want to Work Together?
                 </h2>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                  I'm always open to discussing new projects, creative ideas, or
-                  opportunities to be part of your vision.
+                  {`I'm always open to discussing new projects, creative ideas, or
+                  opportunities to be part of your vision.`}
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
