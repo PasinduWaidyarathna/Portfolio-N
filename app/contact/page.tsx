@@ -117,7 +117,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-medium">Email</h3>
                       <p className="text-gray-500 dark:text-gray-400">
-                        hello@example.com
+                        kvpasindumalinda@gmail.com
                       </p>
                     </div>
                   </div>
@@ -126,7 +126,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-medium">Phone</h3>
                       <p className="text-gray-500 dark:text-gray-400">
-                        +1 (555) 123-4567
+                        +94 76 194 1846
                       </p>
                     </div>
                   </div>
@@ -135,7 +135,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-medium">Location</h3>
                       <p className="text-gray-500 dark:text-gray-400">
-                        San Francisco, CA
+                        Kelaniya, Sri Lanka
                       </p>
                     </div>
                   </div>
@@ -146,7 +146,7 @@ export default function ContactPage() {
                   </h3>
                   <div className="flex space-x-4">
                     <Link
-                      href="https://github.com"
+                      href="https://github.com/PasinduWaidyarathna"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -156,7 +156,7 @@ export default function ContactPage() {
                       </Button>
                     </Link>
                     <Link
-                      href="https://linkedin.com"
+                      href="https://www.linkedin.com/in/pasinduwaidyarathna/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -165,7 +165,7 @@ export default function ContactPage() {
                         <span className="sr-only">LinkedIn</span>
                       </Button>
                     </Link>
-                    <Link href="mailto:hello@example.com">
+                    <Link href="mailto:kvpasindumalinda@gmail.com">
                       <Button variant="outline" size="icon">
                         <Mail className="h-5 w-5" />
                         <span className="sr-only">Email</span>
@@ -205,7 +205,7 @@ export default function ContactPage() {
                         name="name"
                         value={formData.name}
                         onChange={handleChange}
-                        placeholder="John Doe"
+                        placeholder="Your name"
                         required
                       />
                     </div>
@@ -222,7 +222,7 @@ export default function ContactPage() {
                         type="email"
                         value={formData.email}
                         onChange={handleChange}
-                        placeholder="john@example.com"
+                        placeholder="Your email"
                         required
                       />
                     </div>
@@ -274,41 +274,6 @@ export default function ContactPage() {
           </div>
         </section>
       </main>
-      <footer className="w-full border-t bg-white py-6 dark:bg-gray-950">
-        <div className="container flex flex-col items-center justify-between gap-4 px-4 md:flex-row md:px-6">
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            © 2024 John Doe. All rights reserved.
-          </p>
-          <div className="flex gap-4">
-            <Link
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button variant="ghost" size="icon">
-                <Github className="h-4 w-4" />
-                <span className="sr-only">GitHub</span>
-              </Button>
-            </Link>
-            <Link
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button variant="ghost" size="icon">
-                <Linkedin className="h-4 w-4" />
-                <span className="sr-only">LinkedIn</span>
-              </Button>
-            </Link>
-            <Link href="mailto:hello@example.com">
-              <Button variant="ghost" size="icon">
-                <Mail className="h-4 w-4" />
-                <span className="sr-only">Email</span>
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }

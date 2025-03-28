@@ -86,22 +86,10 @@ export default function AboutPage() {
                 <div className="space-y-6">
                   <div className="space-y-2">
                     <h3 className="text-xl font-bold">
-                      Senior Developer at Tech Solutions
+                      Junior Tech Lead - IT
                     </h3>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                      2020 - Present
-                    </p>
-                    <p className="text-gray-500 dark:text-gray-400">
-                      Leading development teams in creating enterprise-level
-                      applications using modern web technologies.
-                    </p>
-                  </div>
-                  <div className="space-y-2">
-                    <h3 className="text-xl font-bold">
-                      Frontend Developer at Digital Agency
-                    </h3>
-                    <p className="text-sm text-gray-500 dark:text-gray-400">
-                      2018 - 2020
+                      2023 - 2025
                     </p>
                     <p className="text-gray-500 dark:text-gray-400">
                       Developed responsive websites and web applications for
@@ -110,13 +98,13 @@ export default function AboutPage() {
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-xl font-bold">
-                      Bachelor of Science in Computer Science
+                      Bachelor of Science Honours in Electronics and Computer Science
                     </h3>
                     <p className="text-sm text-gray-500 dark:text-gray-400">
-                      2014 - 2018
+                      2022 - Present
                     </p>
                     <p className="text-gray-500 dark:text-gray-400">
-                      University of Technology, with a focus on web development
+                      University of Kelaniya, with a focus on web development
                       and user experience design.
                     </p>
                   </div>
@@ -227,41 +215,6 @@ export default function AboutPage() {
           </div>
         </section>
       </main>
-      <footer className="w-full border-t bg-white py-6 dark:bg-gray-950">
-        <div className="container flex flex-col items-center justify-between gap-4 px-4 md:flex-row md:px-6">
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            © 2024 John Doe. All rights reserved.
-          </p>
-          <div className="flex gap-4">
-            <Link
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button variant="ghost" size="icon">
-                <Github className="h-4 w-4" />
-                <span className="sr-only">GitHub</span>
-              </Button>
-            </Link>
-            <Link
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button variant="ghost" size="icon">
-                <Linkedin className="h-4 w-4" />
-                <span className="sr-only">LinkedIn</span>
-              </Button>
-            </Link>
-            <Link href="mailto:hello@example.com">
-              <Button variant="ghost" size="icon">
-                <Mail className="h-4 w-4" />
-                <span className="sr-only">Email</span>
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }

@@ -207,41 +207,6 @@ export default function ProjectPage() {
           </div>
         </section>
       </main>
-      <footer className="w-full border-t bg-white py-6 dark:bg-gray-950">
-        <div className="container flex flex-col items-center justify-between gap-4 px-4 md:flex-row md:px-6">
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            © 2024 John Doe. All rights reserved.
-          </p>
-          <div className="flex gap-4">
-            <Link
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button variant="ghost" size="icon">
-                <Github className="h-4 w-4" />
-                <span className="sr-only">GitHub</span>
-              </Button>
-            </Link>
-            <Link
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button variant="ghost" size="icon">
-                <Linkedin className="h-4 w-4" />
-                <span className="sr-only">LinkedIn</span>
-              </Button>
-            </Link>
-            <Link href="mailto:hello@example.com">
-              <Button variant="ghost" size="icon">
-                <Mail className="h-4 w-4" />
-                <span className="sr-only">Email</span>
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }

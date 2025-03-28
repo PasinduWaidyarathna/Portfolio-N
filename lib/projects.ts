@@ -29,7 +29,7 @@ export const projectData = {
       "For the image upload, I used Cloudinary's API which provides robust image handling capabilities. For the search function, I implemented indexing on the MongoDB database and used a combination of text search and filters to improve performance.",
   },
   "project-two": {
-    title: "Project One",
+    title: "Project Two",
     description:
       "A web application built with React and Node.js that allows users to create and share their own recipes.",
     fullDescription:
@@ -59,3 +59,47 @@ export const projectData = {
   },
   // Add more projects as needed
 };
+
+export const projectList = [
+  {
+    title: "Project One",
+    description:
+      "A web application built with React and Node.js that allows users to create and share their own recipes.",
+    image: "/placeholder.svg?height=400&width=600",
+    tags: ["React", "Node.js", "MongoDB", "Express", "JWT"],
+    slug: "project-one",
+  },
+  {
+    title: "Project Two",
+    description:
+      "A web application built with React and Node.js that allows users to create and share their own recipes.",
+    image: "/placeholder.svg?height=400&width=600",
+    tags: ["React", "Node.js", "MongoDB", "Express", "JWT"],
+    slug: "project-two",
+  },
+  {
+    title: "Project Two",
+    description:
+      "A web application built with React and Node.js that allows users to create and share their own recipes.",
+    image: "/placeholder.svg?height=400&width=600",
+    tags: ["React", "Node.js", "MongoDB", "Express", "JWT"],
+    slug: "project-two",
+  },
+  {
+    title: "Project Two",
+    description:
+      "A web application built with React and Node.js that allows users to create and share their own recipes.",
+    image: "/placeholder.svg?height=400&width=600",
+    tags: ["React", "Node.js", "MongoDB", "Express", "JWT"],
+    slug: "project-two",
+  },
+  {
+    title: "Project Two",
+    description:
+      "A web application built with React and Node.js that allows users to create and share their own recipes.",
+    image: "/placeholder.svg?height=400&width=600",
+    tags: ["React", "Node.js", "MongoDB", "Express", "JWT"],
+    slug: "project-two",
+  },
+  // Add more projects as needed
+];

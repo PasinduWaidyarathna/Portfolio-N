@@ -6,6 +6,7 @@ import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ProjectCard from "@/components/project-card";
 import { motion } from "framer-motion";
+import { projectList } from "@/lib/projects";
 
 export default function Home() {
   return (
@@ -58,7 +59,7 @@ export default function Home() {
                   transition={{ duration: 0.5, delay: 0.3 }}
                 >
                   <Link
-                    href="https://github.com"
+                    href="https://github.com/PasinduWaidyarathna"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -68,7 +69,7 @@ export default function Home() {
                     </Button>
                   </Link>
                   <Link
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/pasinduwaidyarathna/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -77,7 +78,7 @@ export default function Home() {
                       <span className="sr-only">LinkedIn</span>
                     </Button>
                   </Link>
-                  <Link href="mailto:hello@example.com">
+                  <Link href="mailto:kvpasindumalinda@gmail.com">
                     <Button variant="ghost" size="icon">
                       <Mail className="h-5 w-5" />
                       <span className="sr-only">Email</span>
@@ -123,34 +124,16 @@ export default function Home() {
               </div>
             </div>
             <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 md:grid-cols-2 lg:gap-12">
-              <ProjectCard
-                title="Project One"
-                description="A web application built with React and Node.js"
-                image="/placeholder.svg?height=400&width=600"
-                tags={["React", "Node.js", "MongoDB"]}
-                slug="project-one"
-              />
-              <ProjectCard
-                title="Project Two"
-                description="An e-commerce platform with payment integration"
-                image="/placeholder.svg?height=400&width=600"
-                tags={["Next.js", "Stripe", "Tailwind CSS"]}
-                slug="project-two"
-              />
-              <ProjectCard
-                title="Project Three"
-                description="A mobile app for tracking fitness goals"
-                image="/placeholder.svg?height=400&width=600"
-                tags={["React Native", "Firebase", "Redux"]}
-                slug="project-three"
-              />
-              <ProjectCard
-                title="Project Four"
-                description="A dashboard for monitoring system performance"
-                image="/placeholder.svg?height=400&width=600"
-                tags={["Vue.js", "D3.js", "Express"]}
-                slug="project-four"
-              />
+              {projectList.slice(0, 4).map((project) => (
+                <ProjectCard
+                  key={project.slug}
+                  title={project.title}
+                  description={project.description}
+                  image={project.image}
+                  tags={project.tags}
+                  slug={project.slug}
+                />
+              ))}
             </div>
             <div className="flex justify-center">
               <Link href="/projects">
@@ -166,13 +149,15 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <div className="flex items-center justify-center">
-                <div className="relative aspect-video overflow-hidden rounded-xl">
+                <div className="relative h-auto w-full aspect-video overflow-hidden rounded-xl">
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="/me.jpg"
                     alt="About Me"
-                    width={600}
-                    height={400}
-                    className="object-cover"
+                    // width={600}
+                    // height={400}
+                    className="object-contain w-full h-full"
+                    fill
+                    priority
                   />
                 </div>
               </div>
@@ -231,41 +216,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <footer className="w-full border-t bg-white py-6 dark:bg-gray-950">
-        <div className="container flex flex-col items-center justify-between gap-4 px-4 md:flex-row md:px-6">
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            © 2024 John Doe. All rights reserved.
-          </p>
-          <div className="flex gap-4">
-            <Link
-              href="https://github.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button variant="ghost" size="icon">
-                <Github className="h-4 w-4" />
-                <span className="sr-only">GitHub</span>
-              </Button>
-            </Link>
-            <Link
-              href="https://linkedin.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button variant="ghost" size="icon">
-                <Linkedin className="h-4 w-4" />
-                <span className="sr-only">LinkedIn</span>
-              </Button>
-            </Link>
-            <Link href="mailto:hello@example.com">
-              <Button variant="ghost" size="icon">
-                <Mail className="h-4 w-4" />
-                <span className="sr-only">Email</span>
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
