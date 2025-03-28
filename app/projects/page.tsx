@@ -5,7 +5,6 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ProjectCard from "@/components/project-card";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail } from "lucide-react";
 import { projectList } from "@/lib/projects";
 
 export default function ProjectsPage() {
