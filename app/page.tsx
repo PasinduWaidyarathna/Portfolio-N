@@ -32,8 +32,7 @@ export default function Home() {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.1 }}
                   >
-                    A full-stack developer specializing in building exceptional
-                    digital experiences.
+                    Aspiring DevOps & Cloud Engineer passionate about building efficient, scalable, and automated solutions.
                   </motion.p>
                 </div>
                 <motion.div
@@ -170,11 +169,10 @@ export default function Home() {
                     Who I Am
                   </h2>
                   <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                    {`I'm a passionate developer with a focus on creating
-                    beautiful, functional, and user-friendly applications. With
-                    over 5 years of experience in web development, I've worked
-                    on a variety of projects from small business websites to
-                    large-scale enterprise applications.`}
+                    {`I’m Pasindu Waidyarathna, an Electronics and Computer Science undergraduate at the University of Kelaniya.
+                     I’m passionate about DevOps and Cloud Engineering, with hands-on experience in Linux, AWS, Docker, 
+                     GitHub Actions, and Terraform. I enjoy building automated, scalable systems and am currently looking 
+                     for opportunities to grow in this field.`}
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">

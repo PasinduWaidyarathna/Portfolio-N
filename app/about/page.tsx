@@ -62,21 +62,20 @@ export default function AboutPage() {
                   My Story
                 </h2>
                 <p className="text-gray-500 md:text-lg/relaxed dark:text-gray-400">
-                  I started my journey in web development over 5 years ago. What
-                  began as a curiosity quickly evolved into a passion for
-                  creating digital experiences that are not only visually
-                  appealing but also functional and user-friendly.
+                  My journey in tech began with a deep interest in electronics and programming, 
+                  which naturally led me to the world of DevOps and Cloud Engineering. I enjoy
+                   solving complex problems and building efficient, scalable systems that 
+                   power real world applications.
                 </p>
                 <p className="text-gray-500 md:text-lg/relaxed dark:text-gray-400">
-                  {`Throughout my career, I've had the opportunity to work with a
-                  diverse range of clients, from startups to established
-                  enterprises, helping them bring their ideas to life through
-                  code.`}
+                  {`As I continue my degree in Electronics and Computer Science at the
+                   University of Kelaniya, I’m gaining hands on experience with tools 
+                   like Linux, AWS, Docker, Terraform, and GitHub Actions focusing on 
+                   automation, infrastructure as code, and cloud deployments.`}
                 </p>
                 <p className="text-gray-500 md:text-lg/relaxed dark:text-gray-400">
-                  {`My approach to development is centered around understanding
-                  the unique needs of each project and finding the most
-                  efficient and effective solutions to meet those needs.`}
+                  {`I’m driven by curiosity, continuous learning, and the desire to 
+                  make systems run smoother and smarter.`}
                 </p>
               </div>
               <div className="space-y-4">
@@ -92,8 +91,9 @@ export default function AboutPage() {
                       2023 - 2025
                     </p>
                     <p className="text-gray-500 dark:text-gray-400">
-                      Developed responsive websites and web applications for
-                      various clients across different industries.
+                      Developed an E-Waste Inventory and Management System 
+                      for the university and tech club, focusing on 
+                      efficient tracking and reporting of electronic waste.
                     </p>
                   </div>
                   <div className="space-y-2">
@@ -104,8 +104,8 @@ export default function AboutPage() {
                       2022 - Present
                     </p>
                     <p className="text-gray-500 dark:text-gray-400">
-                      University of Kelaniya, with a focus on web development
-                      and user experience design.
+                      University of Kelaniya, specializing in DevOps tools, 
+                      cloud technologies, and modern system design.
                     </p>
                   </div>
                 </div>
